@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.close {
+    color: red;
+    float: right;
+    cursor: pointer;
+}
